@@ -1,5 +1,5 @@
 {
-    "name": "@ricochhet/odin",
+    "name": "@ricochhet/css",
     "version": "0.2.0",
     "description": "A modern CSS framework",
     "main": "src/index.js",
@@ -22,12 +22,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ricochhet/odin.git"
+        "url": "git+https://github.com/ricochhet/css.git"
     },
     "bugs": {
-        "url": "https://github.com/ricochhet/odin/issues"
+        "url": "https://github.com/ricochhet/css/issues"
     },
-    "homepage": "https://github.com/ricochhet/odin",
+    "homepage": "https://github.com/ricochhet/css",
     "devDependencies": {
         "husky": "^7.0.2",
         "lint-staged": "^11.1.2",
