@@ -1,4 +1,4 @@
-/*! css v0.2.0 | MIT License | github.com/ricochhet/css */
+/*! css v0.3.0 | MIT License | github.com/ricochhet/css */
 /*==========
 =ROOT
 ==========*/
@@ -345,6 +345,57 @@ a:focus {
     line-height: 1.25;
 }
 /*==========
+=COMPONENTS,SIZING
+==========*/
+.is-16x16 {
+    height: 16px;
+    width: 16px;
+}
+.is-24x24 {
+    height: 24px;
+    width: 24px;
+}
+.is-32x32 {
+    height: 32px;
+    width: 32px;
+}
+.is-48x48 {
+    height: 48px;
+    width: 48px;
+}
+.is-64x64 {
+    height: 64px;
+    width: 64px;
+}
+.is-96x96 {
+    height: 96px;
+    width: 96px;
+}
+.is-128x128 {
+    height: 128px;
+    width: 128px;
+}
+.is-256x256 {
+    height: 256px;
+    width: 256px;
+}
+.is-512x512 {
+    height: 512px;
+    width: 512px;
+}
+.is-1024x1024 {
+    height: 1024px;
+    width: 1024px;
+}
+.is-2048x2048 {
+    height: 2048px;
+    width: 2048px;
+}
+.is-4096x4096 {
+    height: 4096px;
+    width: 4096px;
+}
+/*==========
 =COMPONENTS,IMAGES
 ==========*/
 .image {
@@ -382,6 +433,26 @@ a:focus {
 .image img.is-128x128 {
     height: 128px;
     width: 128px;
+}
+.image img.is-256x256 {
+    height: 256px;
+    width: 256px;
+}
+.image img.is-512x512 {
+    height: 512px;
+    width: 512px;
+}
+.image img.is-1024x1024 {
+    height: 1024px;
+    width: 1024px;
+}
+.image img.is-2048x2048 {
+    height: 2048px;
+    width: 2048px;
+}
+.image img.is-4096x4096 {
+    height: 4096px;
+    width: 4096px;
 }
 /*==========
 =COMPONENTS,COMPONENTS
