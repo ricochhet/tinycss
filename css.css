@@ -1,4 +1,4 @@
-/*! css v0.3.0 | MIT License | github.com/ricochhet/css */
+/*! css v0.4.0 | MIT License | github.com/ricochhet/css */
 /*==========
 =ROOT
 ==========*/
@@ -3176,10 +3176,26 @@ a:focus {
     background-color: transparent;
 }
 /*==========
-=MEDIA,MOBILE-700PX
+=MEDIA,MOBILE
 ==========*/
 @media (max-width: 700px) {
     .grid-cols-mobile {
+        grid-template-columns: auto;
+    }
+    .no-mobile {
+        display: none;
+    }
+}
+@media (max-width: 960px) {
+    .grid-cols-mobile-960 {
+        grid-template-columns: auto;
+    }
+    .no-mobile {
+        display: none;
+    }
+}
+@media (max-width: 1440px) {
+    .grid-cols-mobile-1440 {
         grid-template-columns: auto;
     }
     .no-mobile {
