@@ -1,3 +1,3 @@
-# css
+# tinycss
 
-A modern CSS framework
+A tiny CSS framework
